@@ -4,6 +4,7 @@
 ```
 cd Kubernetes-setup
 vagrant up
+export KUBECONFIG=$(pwd)/config
 vagrant ssh master
 Kubernetes dashboard -> https://192.168.48.10:32324/
 get the Kubernetes dashboard service account token code:
